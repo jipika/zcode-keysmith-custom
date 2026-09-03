@@ -23,7 +23,7 @@ managed system-role 注入入口（含注入总开关与 offpeak/start-plan 通�
    - ~/.zcode-keysmith/skip-channels.txt（offpeak / start-plan 永不注入）；
    - ~/.zcode-keysmith/bin/zcode-agent-wrapper.py（带 DISABLED 总开关与通道跳过的 wrapper）；
    - ~/.zcode-keysmith/config.json、bin/zcode-keysmith-env.sh；
-   - ~/Library/LaunchAgents/com.jia.zcode-keysmith-custom.env.plist；
+   - ~/Library/LaunchAgents/com.jia.zcode-keysmith.env.plist；
    - 斜杠命令 ~/.zcode/commands/po.md（/po on|off|status）。
 3. 验证（安装脚本会自动执行，请复核输出）：
    - launchctl getenv ZCODE_AGENT_SERVER_COMMAND 输出 wrapper 路径；

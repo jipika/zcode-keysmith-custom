@@ -13,8 +13,8 @@ REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 ZCODE_APP="${ZCODE_APP_PATH:-/Applications/ZCode.app}"
 RUNTIME="$ZCODE_APP/Contents/Resources/glm/zcode.cjs"
 NODE_CMD="$ZCODE_APP/Contents/Frameworks/ZCode Helper.app/Contents/MacOS/ZCode Helper"
-LAUNCH_AGENT="$HOME/Library/LaunchAgents/com.jia.zcode-keysmith-custom.env.plist"
-PLIST_LABEL="com.jia.zcode-keysmith-custom.env"
+LAUNCH_AGENT="$HOME/Library/LaunchAgents/com.jia.zcode-keysmith.env.plist"
+PLIST_LABEL="com.jia.zcode-keysmith.env"
 ENV_SCRIPT="$MANAGED_DIR/bin/zcode-keysmith-env.sh"
 ENV_KEYS=(ZCODE_AGENT_SERVER_COMMAND ZCODE_AGENT_SERVER_ARGS_JSON
           ZCODE_KEYSMITH_SYSTEM_FILE ZCODE_KEYSMITH_ORIGINAL
